@@ -13,7 +13,7 @@ function Login() {
     };
 
     const responseGoogleFailure = (response) => {
-        if (response != null) {
+        if (response === null) {
             navigate("/");
         }
     };
